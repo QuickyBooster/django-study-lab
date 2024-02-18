@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="layout__body">
-                    <form method="POST" class="form" action="">
+                    <form method="POST" class="form" action="" enctype="multipart/form-data">
                         {% csrf_token %}
                         {% for field in form %}
                             <div class="form__group">
